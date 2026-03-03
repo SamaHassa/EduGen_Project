@@ -1,0 +1,32 @@
+# ── Secrets ───────────────────────────────
+.env
+
+# ── Python ────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ───────────────────
+edugen/ven/
+venv/
+env/
+.venv/
+
+# ── IDE / OS ──────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# ── Streamlit ─────────────────────────────
+.streamlit/secrets.toml
+
+# ── Data / uploads ────────────────────────
+edugen/ingestion/chunks/
+*.pdf
+

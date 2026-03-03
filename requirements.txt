@@ -1,0 +1,7 @@
+langchain                 0.2.16
+langchain-classic         1.0.1 
+langchain-community       0.2.16
+langchain-core            0.2.43
+langchain-huggingface     0.0.3 
+langchain-text-splitters  0.2.4 
+PyPDF2                    3.0.1 
