@@ -223,7 +223,7 @@ if __name__ == "__main__":
 
     # Simulate student answers (one letter per question)
     student_answers = ["A", "B", "B", "A", "B"]
-    student_name = "Ahmed Ali"
+    student_name = "Sama Hassan"
 
     result = evaluate_exam(exam_id, student_name, student_answers)
 
@@ -237,5 +237,5 @@ if __name__ == "__main__":
         for item in result["score_breakdown"]:
             status = "CORRECT" if item["is_correct"] else "WRONG"
             print(f"  Q{item['question_index']}: [{status}]  "
-                  f"Your answer: {item['student_answer']}  |  "
-                  f"Correct: {item['correct_answer']}")
+                    f"Your answer: {item['student_answer']}  |  "
+                    f"Correct: {item['correct_answer']}")
