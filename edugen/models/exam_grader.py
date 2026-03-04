@@ -1,5 +1,3 @@
-# edugen/models/exam_grader.py
-
 import sys
 import os
 import json

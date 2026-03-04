@@ -1,4 +1,3 @@
-# retriever.py
 import os
 import numpy as np
 from supabase import create_client, Client
@@ -17,7 +16,7 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 # HELPER FUNCTIONS
 
 def cosine_similarity(vec1, vec2):
-    """Compute cosine similarity between two vectors"""
+    """Compute cosine similarity between two vectors """
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
 def parse_embedding(embedding_str):

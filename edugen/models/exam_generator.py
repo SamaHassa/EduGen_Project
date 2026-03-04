@@ -1,5 +1,3 @@
-# edugen/models/exam_generator.py
-
 import sys
 import os
 import re
