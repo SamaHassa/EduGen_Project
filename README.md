@@ -133,13 +133,5 @@ PDF Upload  ──►  PyPDF2 extraction  ──►  RecursiveCharacterTextSplit
 
 ---
 
-## 📄 License
 
-MIT — free to use, modify, and share.
-
----
-
-<div align="center">
-  Made with ❤️ and a lot of ☕ &nbsp;|&nbsp; Powered by Groq ⚡ &nbsp;|&nbsp; Backed by Supabase 🟢
-</div>
 
