@@ -4,17 +4,18 @@ import json
 from datetime import datetime, timezone
 
 from supabase import create_client, Client
+from dotenv import load_dotenv
 
 # Ensure project root is on sys.path
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
+load_dotenv()
 
 # Supabase config
-    
-SUPABASE_URL = "https://jwuxmjwgeqwvryupluod.supabase.co"
-SUPABASE_KEY = "sb_secret_aTmKc4oVYuHOGsqRwO4HbQ_2yKZtIUs"
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
